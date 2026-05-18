@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Eco Pilgua - Papelería Creativa &amp; Sublimación</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="description"
+		content="Eco Pilgua: Papelería creativa y productos sublimados personalizados con amor y resiliencia.">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="icon" href="img/Logo.jpg" type="image/jpeg">
+
+	<!--  estilos personalizados van al final para que tengan prioridad -->
+	<link rel="stylesheet" type="text/css" href="css/eco-pilgua.css">
+
+	<!-- iconos phosphor para redes sociales -->
+	<script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+	<style>
+		/* estilos adicionales para el layout */
+		.mv-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 30px;
+		}
+
+		@media (max-width: 768px) {
+			.mv-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.testimonios-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 24px;
+		}
+
+		@media (max-width: 768px) {
+			.testimonios-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header" tabindex="0">
+
+	<div id="header-wrap">
+
+		<div class="top-content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="social-links">
+							<!-- Ícono de inicio removido a petición -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="right-element">
+							<a href="https://wa.me/56932776583" class="for-buy" target="_blank">
+								<i class="ph ph-whatsapp-logo" style="color: #25D366; font-size: 1.3em; margin-right: 5px; vertical-align: middle;"></i><span>+56 9 3277 6583</span>
+							</a>
+							<a href="mailto:ecopilgua@gmail.com" class="for-buy">
+								<i class="ph ph-envelope-simple" style="color: #EA4335; font-size: 1.3em; margin-right: 5px; vertical-align: middle;"></i><span>ecopilgua@gmail.com</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--top-content-->
+
+		<header id="header">
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-md-2">
+						<div class="main-logo">
+							<a href="index.html">
+								<img src="img/Logo.jpg" alt="Logo Eco Pilgua"
+									style="height:60px; width:60px; border-radius:50%; object-fit:cover;">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-10">
+						<nav id="navbar">
+							<div class="main-menu stellarnav">
+								<ul class="menu-list">
+									<li class="menu-item active"><a href="#billboard">Inicio</a></li>
+									<li class="menu-item"><a href="#historia" class="nav-link">Historia</a></li>
+									<li class="menu-item"><a href="#mision-vision" class="nav-link">Misión y Visión</a>
+									</li>
+									<li class="menu-item"><a href="#productos" class="nav-link">Productos</a></li>
+									<li class="menu-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+									<li class="menu-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+								</ul>
+								<div class="hamburger">
+									<span class="bar"></span>
+									<span class="bar"></span>
+									<span class="bar"></span>
+								</div>
+							</div>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+	</div><!--header-wrap-->
+
+	<!-- BANNER -->
+	<section id="billboard">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<button class="prev slick-arrow"><i class="icon icon-arrow-left"></i></button>
+
+					<div class="main-slider pattern-overlay">
+						<div class="slider-item">
+							<div class="banner-content">
+								<h2 class="banner-title">Papelería Creativa &amp; Sublimación</h2>
+								<p>Del dolor más grande nació la fuerza más linda. Cada producto está hecho con el
+									corazón, reflejando crecimiento, cariño y resiliencia.</p>
+								<div class="btn-wrap">
+									<a href="#productos" class="btn btn-outline-accent btn-accent-arrow">Ver Productos
+										<i class="icon icon-ns-arrow-right"></i></a>
+								</div>
+							</div>
+							<img src="img/productos.jpg" alt="Productos Eco Pilgua" class="banner-image">
+						</div>
+
+						<div class="slider-item">
+							<div class="banner-content">
+								<h2 class="banner-title">Diseños Únicos con Corazón</h2>
+								<p>Agendas, tazones, cojines y más. Cada pieza personalizada lleva tu historia. Envíos a
+									todo Chile desde Talca.</p>
+								<div class="btn-wrap">
+									<a href="#historia" class="btn btn-outline-accent btn-accent-arrow">Nuestra Historia
+										<i class="icon icon-ns-arrow-right"></i></a>
+								</div>
+							</div>
+							<img src="img/producto2.jpg" alt="Sublimación Eco Pilgua" class="banner-image">
+						</div>
+					</div>
+
+					<button class="next slick-arrow"><i class="icon icon-arrow-right"></i></button>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- NUESTRA HISTORIA -->
+	<section id="historia" class="py-5 my-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header align-center">
+						<div class="title"><span>Quiénes somos</span></div>
+						<h2 class="section-title">Nuestra Historia</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center" data-aos="fade-up">
+				<div class="col-md-6">
+					<figure class="products-thumb">
+						<img src="img/producto3.jpg" alt="Eco Pilgua" class="single-image">
+					</figure>
+				</div>
+				<div class="col-md-6">
+					<div class="product-entry">
+						<h2 class="section-title divider">Del dolor nació la fuerza</h2>
+						<div class="products-content">
+							<p>Hace 10 años, la vida me enfrentó a una gran pérdida: quedé viuda cuando mis hijos aún
+								eran pequeños. En medio del dolor y la incertidumbre, tuve claro algo muy profundo:
+								quería ser una mamá presente, acompañarlos y demostrarles que, incluso en los momentos
+								más difíciles, siempre se puede volver a empezar.</p>
+							<p>Buscando una manera de estar con ellos y salir adelante, nació mi impulso de emprender.
+								Con el tiempo descubrí mi pasión por el diseño y fui perfeccionando nuevas técnicas. Así
+								nació Eco Pilgua, un rincón donde cada producto está hecho con el corazón, reflejando
+								crecimiento, cariño y resiliencia.</p>
+							<p>Hoy, <strong>Eco Pilgua</strong> es más que un emprendimiento; es el resultado de
+								convertir el dolor en arte.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4" data-aos="fade-up">
+				<div class="col-md-12">
+					<div class="historia-galeria">
+						<img src="img/productos.jpg" alt="Productos en stand">
+						<img src="img/producto2.jpg" alt="Papelería creativa">
+						<img src="img/producto3.jpg" alt="Producto sublimado">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MISIÓN Y VISIÓN -->
+	<section id="mision-vision" class="leaf-pattern-overlay">
+		<div class="corner-pattern-overlay"></div>
+		<div class="container py-5">
+			<div class="row justify-content-center">
+				<div class="col-md-10 d-block">
+					<div class="section-header align-center mb-4">
+						<div class="title"><span>Nuestros valores</span></div>
+						<h2 class="section-title">Misión y Visión</h2>
+					</div>
+					<div class="mv-grid" data-aos="fade-up">
+						<div class="mv-card">
+							<h3>Misión</h3>
+							<p>En Eco Pilgua creamos productos personalizados que transforman ideas en piezas únicas
+								llenas de color, emoción y significado. Nuestra misión es acompañar a cada cliente desde
+								la inspiración hasta el resultado final, entregando productos de papelería creativa y
+								sublimación que combinan diseño, funcionalidad y cariño, fomentando la expresión
+								personal y el valor del trabajo hecho a mano.</p>
+						</div>
+						<div class="mv-card">
+							<h3>Visión</h3>
+							<p>Ser una marca reconocida a nivel nacional por nuestra creatividad, rapidez y compromiso
+								con cada persona, transformando momentos cotidianos en experiencias memorables a través
+								del diseño personalizado. Buscamos consolidarnos como un referente en papelería creativa
+								y productos sublimados, impulsando la sostenibilidad, la innovación y el espíritu
+								emprendedor local.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PRODUCTOS -->
+	<section id="productos" class="bookshelf py-5 my-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header align-center">
+						<div class="title"><span>Hecho con dedicación y detalle</span></div>
+						<h2 class="section-title">Nuestros Productos</h2>
+					</div>
+					<p class="text-center mb-4" style="color:var(--body-text-color);">
+						En Eco Pilgua realizamos una amplia variedad de productos personalizados, hechos con dedicación
+						y detalle:
+					</p>
+					<div class="product-list" data-aos="fade-up">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="product-item">
+									<figure class="product-style">
+										<img src="img/prod1.jpg" alt="Agendas y cuadernos" class="product-item">
+									</figure>
+									<figcaption>
+										<h3>Agendas y Cuadernos</h3>
+										<span>Papelería creativa</span>
+										<div class="item-price">Personalizado</div>
+									</figcaption>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<figure class="product-style">
+										<img src="img/prod2.jpg" alt="Stickers" class="product-item">
+									</figure>
+									<figcaption>
+										<h3>Stickers y Papelería</h3>
+										<span>Diseños exclusivos</span>
+										<div class="item-price">Personalizado</div>
+									</figcaption>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<figure class="product-style">
+										<img src="img/prod3.jpg" alt="Tazones sublimados" class="product-item">
+									</figure>
+									<figcaption>
+										<h3>Tazones Sublimados</h3>
+										<span>Cerámica personalizada</span>
+										<div class="item-price">Personalizado</div>
+									</figcaption>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="product-item">
+									<figure class="product-style">
+										<img src="img/prod4.jpg" alt="Cojines y pad mouse" class="product-item">
+									</figure>
+									<figcaption>
+										<h3>Cojines &amp; Pad Mouse</h3>
+										<span>Sublimación premium</span>
+										<div class="item-price">Personalizado</div>
+									</figcaption>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btn-wrap align-right mt-3">
+						<a href="https://wa.me/56932776583" class="btn-accent-arrow" target="_blank">
+							Pedir por WhatsApp <i class="icon icon-ns-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CITA -->
+	<section id="quotation" class="align-center pb-5 mb-5">
+		<div class="inner-content">
+			<h2 class="section-title divider">Nuestra esencia</h2>
+			<blockquote data-aos="fade-up">
+				<q>"Cada producto que sale de nuestras manos lleva una historia."</q>
+				<div class="author-name">Eco Pilgua</div>
+			</blockquote>
+		</div>
+	</section>
+
+	<!-- TESTIMONIOS -->
+	<section id="testimonios" class="bookshelf pb-5 mb-5">
+		<div class="section-header align-center">
+			<div class="title"><span>Experiencias reales</span></div>
+			<h2 class="section-title">Lo que dicen nuestras clientas</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="inner-content w-100">
+					<div class="testimonios-grid" data-aos="fade-up">
+						<div class="testimonio-card">
+							<img class="testimonio-foto" src="img/cliente1.jpg" alt="Carolina P.">
+							<blockquote class="testimonio-cita">
+								<p>"Le conté mi idea y en minutos ya tenía el diseño listo, justo como lo imaginaba. La
+									atención es rápida, cercana y 100% personalizada. Eco Pilgua se transformó en mi
+									tienda favorita para regalos."</p>
+							</blockquote>
+							<cite class="testimonio-autor">— Carolina P., clienta frecuente</cite>
+						</div>
+						<div class="testimonio-card">
+							<img class="testimonio-foto" src="img/cliente2.jpg" alt="Danae M.">
+							<blockquote class="testimonio-cita">
+								<p>"Los productos son preciosos y duraderos. Mis tazones personalizados llevan años
+									conmigo y siguen impecables. Siempre recibo elogios por los cuadernos que me hacen:
+									cada detalle está cuidado."</p>
+							</blockquote>
+							<cite class="testimonio-autor">— Danae M., clienta frecuente</cite>
+						</div>
+						<div class="testimonio-card">
+							<img class="testimonio-foto" src="img/cliente3.jpg" alt="Cindy M.">
+							<blockquote class="testimonio-cita">
+								<p>"Excelente atención y compromiso. Todos mis pedidos llegan a tiempo, con una
+									presentación impecable y esa calidez que hoy es difícil de encontrar. Recomiendo Eco
+									Pilgua con los ojos cerrados."</p>
+							</blockquote>
+							<cite class="testimonio-autor">— Cindy M., enfermera</cite>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CONTACTO -->
+	<section id="contacto">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="title-element">
+								<h2 class="section-title divider">¿Tienes una idea? ¡Contáctanos!</h2>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="subscribe-content" data-aos="fade-up">
+								<p>Escríbenos por WhatsApp o correo. Estamos en Talca y hacemos envíos a todo Chile.</p>
+								<div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:16px;">
+									<a href="https://wa.me/56932776583" class="btn-subscribe" target="_blank">
+										<span>WhatsApp</span>
+										<i class="ph ph-whatsapp-logo" style="color: white; font-size: 1.2em;"></i>
+									</a>
+									<a href="mailto:ecopilgua@gmail.com" class="btn-subscribe">
+										<span>Email</span>
+										<i class="ph ph-envelope-simple" style="color: white; font-size: 1.2em;"></i>
+									</a>
+									<a href="https://instagram.com/ecopligua" class="btn-subscribe" target="_blank">
+										<span>Instagram</span>
+										<i class="ph ph-instagram-logo" style="color: white; font-size: 1.2em;"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PIE DE PAGINA -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="footer-item">
+						<div class="company-brand">
+							<img src="img/Logo.jpg" alt="Logo Eco Pilgua" class="footer-logo"
+								style="border-radius:50%; width:80px; height:80px; object-fit:cover;">
+							<p style="margin-top:12px;">Papelería creativa y sublimación personalizada, hecha con
+								corazón desde Talca. Cada producto es único, como tú.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="footer-menu">
+						<h5>Navegación</h5>
+						<ul class="menu-list">
+							<li class="menu-item"><a href="#historia">Historia</a></li>
+							<li class="menu-item"><a href="#mision-vision">Misión y Visión</a></li>
+							<li class="menu-item"><a href="#productos">Productos</a></li>
+							<li class="menu-item"><a href="#testimonios">Testimonios</a></li>
+							<li class="menu-item"><a href="#contacto">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="footer-menu">
+						<h5>Contacto y Redes</h5>
+						<ul class="menu-list">
+							<li class="menu-item"><a href="https://wa.me/56932776583" target="_blank"><i class="ph ph-whatsapp-logo" style="color: #25D366; font-size: 1.3em; margin-right: 8px; vertical-align: middle;"></i>+56 9 3277
+									6583</a></li>
+							<li class="menu-item"><a href="mailto:ecopilgua@gmail.com"><i class="ph ph-envelope-simple" style="color: #EA4335; font-size: 1.3em; margin-right: 8px; vertical-align: middle;"></i>ecopilgua@gmail.com</a></li>
+							<li class="menu-item"><a href="https://instagram.com/ecopligua" target="_blank"><i class="ph ph-instagram-logo" style="color: #E1306C; font-size: 1.3em; margin-right: 8px; vertical-align: middle;"></i>@ecopligua</a></li>
+							<li class="menu-item"><i class="ph ph-map-pin" style="color: #4285F4; font-size: 1.3em; margin-right: 8px; vertical-align: middle;"></i>Talca — Envíos a todo Chile</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<div id="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright">
+						<div class="row">
+							<div class="col-md-6">
+								<p>© 2026 Eco Pilgua. Todos los derechos reservados.</p>
+							</div>
+							<div class="col-md-6">
+								<div class="social-links align-right">
+									<!-- Ícono removido a petición -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
