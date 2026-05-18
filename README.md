@@ -2,6 +2,8 @@
 
 Proyecto web desarrollado para Eco Pilgua, emprendimiento dedicado a la papelería creativa y diseño de productos sublimados.
 
+**Enlace Netlify:** [https://ecopilguaeco.netlify.app/](https://ecopilguaeco.netlify.app/)
+
 ## Descripción General
 
 Este proyecto consiste en una página web estática implementada con HTML, CSS y JavaScript. Su propósito es presentar la identidad de la marca, su historia, misión, visión y catálogo de servicios, facilitando el contacto directo con los clientes.
